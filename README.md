@@ -2,6 +2,12 @@
 This project combines a Raspberry Pi with a motion sensor to control a smart home device with IFTTT
 
 Materials:
+- Raspberry Pi Zero with Headers - https://amzn.to/2NncxP4
+  - or Raspberry Pi 3B, 3B+ (3A, or 4) - https://amzn.to/2O9SxiO
+- MicroSD card - https://amzn.to/2Nq5AN9
+- Motion Sensor - https://amzn.to/32OPMaA
+- TP-Link Smart Plug - https://amzn.to/30dpAty
+- Peripherals: Mouse, Keyboard, & Monitor
 
 Assumptions:
 - Working knowledge of how to setup a fresh Raspberry Pi with the Raspbian operating system.
@@ -10,7 +16,7 @@ Assumptions:
 - Previously setup a smart plug that is currently active and connected to your home or office Wifi network.
 
 # Step 1: Setup Raspbian OS
-Download and install Raspbian OS
+Download and install Raspbian OS - See my previous video on a basic Raspbian OS download and setup: https://youtu.be/lM1jVVHn4Iw
 
 # Step 2: Hardware Assembly
 - Insert your MicroSD card with Raspbian into your Raspberry Pi.
