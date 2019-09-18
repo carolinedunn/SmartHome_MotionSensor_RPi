@@ -57,7 +57,7 @@ sudo apt-get update
 sudo apt-get upgrade
 mkdir ifttt
 cd ifttt
-wget
+wget https://awsiotbutton.s3.amazonaws.com/iftttpir.py
 sudo nano iftttpir.py
 ```
 - Go back to your IFTTT webpage and copy the key
