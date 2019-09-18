@@ -66,6 +66,23 @@ Now let's try running the code!
 Now move your hand in front of your motion sensor and see if it works. If it doesn't work, retrace your steps.
 
 
+# Step 5: Run on Boot
+
+This step is optional if you'd like for this python script to run at boot.
+
+- Open a Terminal
+- Enter
+```sudo nano /home/pi/.bashrc```
+
+- Arrow down to the bottom of the file.
+- Enter the following at the bottom of the .bashrc
+
+```sudo python3 /home/pi/ifttt/iftttpir.py```
+
+- Ctrl-X to exit
+- 'y' to Save
+- Reboot your Raspberry Pi.
+
 
 
   
