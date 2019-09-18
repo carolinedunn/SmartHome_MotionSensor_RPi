@@ -43,14 +43,14 @@ try:
 			print("Motion detected!")
 			
 			# Your IFTTT URL with event name, key and json parameters (values)
-			r = requests.post('https://maker.ifttt.com/trigger/motion_detected/with/key/KJtPC8QO47zUMfFURA6pE', params={"value1":"none","value2":"none","value3":"none"})
+			r = requests.post('https://maker.ifttt.com/trigger/motion_detected/with/key/REPLACE_WITH_IFTTT_KEY', params={"value1":"none","value2":"none","value3":"none"})
 			
 			# Record new previous state
 			previousstate = 1
 			
 			#Wait 120 seconds before looping again
-			print("Waiting 30 seconds")
-			time.sleep(30)
+			print("Waiting 120 seconds")
+			time.sleep(120)
 			
 		# If the PIR has returned to ready state
 		elif currentstate == 0 and previousstate == 1:
