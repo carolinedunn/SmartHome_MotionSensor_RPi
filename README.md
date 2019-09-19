@@ -27,6 +27,8 @@ Download and install Raspbian OS - See my previous video on a basic Raspbian OS 
 - Attach a mouse, keyboard, and monitor to your Raspberry Pi.
 - Power on your Pi.
 
+![WiringDiagram](https://github.com/carolinedunn/SmartHome_MotionSensor_RPi/blob/master/Wiring%20Diagram-MotionSensor%20to%20RPi.jpg)
+
 # Step 3: Setup IFTTT
 
 In this step, you'll setup your IFTTT Webhook
