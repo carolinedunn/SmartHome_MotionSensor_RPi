@@ -16,7 +16,7 @@ Assumptions:
 - Previously setup a smart plug that is currently active and connected to your home or office Wifi network.
 
 # Step 1: Setup Raspbian OS
-Download and install Raspbian OS - See my previous video on a basic Raspbian OS download and setup: https://youtu.be/lM1jVVHn4Iw
+Download and install Raspbian OS - See my previous video on a basic Raspbian OS download and setup: https://youtu.be/2Jfv9NO6J2Q
 
 # Step 2: Hardware Assembly
 - Insert your MicroSD card with Raspbian into your Raspberry Pi.
